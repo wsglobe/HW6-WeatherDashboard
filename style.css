@@ -1,0 +1,150 @@
+body {
+  background-color: white;
+}
+
+.navbar {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  background-color: olivedrab;
+  display: block;
+}
+
+.navbar-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  background-color: olivedrab;
+  padding-left: 15px;
+  /* margin-left: auto;  */
+}
+
+.nav {
+  display: flex;
+  justify-content: left;
+  list-style: none;
+}
+
+
+#weather-dashboard {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  background: olivedrab;
+  color: black;
+  line-height: 50px;
+  font-kerning: auto;
+}
+
+.card {
+  border: none;
+}
+
+.jumbotron {
+  background-color: olivedrab;
+}
+
+.navbar-light {
+  background-color: white;
+}
+
+.city-btn {
+  background-color: olivedrab;
+}
+
+.card-body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+  font-size: 16pt;
+  color: black;
+  display: inline-block;
+  border: solid white 5px;
+  margin: 20px;
+  padding: 40px;
+  flex-direction: row;
+  width: auto;
+}
+
+.city-weather {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+
+.headline {
+  font-size: 34px;
+  border: none;
+  display: inline-block;
+  float: left;
+}
+
+.lead {
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.city-weather {
+  font-size: 36pt;
+  padding-left: 40px;
+  line-height: 32px;
+  padding-bottom: 60px;
+}
+
+#search {
+  width: 290px;
+  float: left;
+}
+
+#search-header {
+  margin-right: 25px;
+}
+
+#li {
+  padding: 20px;
+}
+
+h1 {
+  padding-left: 20px;
+}
+
+.uv-index {
+  margin-bottom: 25px;
+}
+
+#five-day {
+  display: inline-block;
+  height: 100px;
+}
+
+.card {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+.cardbody {
+  border: none;
+  display: inline-block;
+  flex-direction: row;
+}
+
+.badge-success {
+  background-color: darkgreen;
+}
+
+.badge-mild {
+  background-color: yellow;
+}
+
+.badge-warning {
+  background-color: orange;
+}
+
+.badge-veryhigh {
+  background-color: red;
+}
+
+.badge-danger {
+  background-color: darkmagenta;
+}
